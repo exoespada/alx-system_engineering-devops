@@ -1,5 +1,5 @@
 #!/bin/bash
 git add .
-read -p "add a commit message" message
+read -p "add a commit message:  " message
 git commit -m "$message"
 git push
